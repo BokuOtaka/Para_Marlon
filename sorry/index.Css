@@ -1,0 +1,75 @@
+body {
+    background-color: #5a90f7;
+    font-family: Georgia, 'Times New Roman', serif;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  main {
+    position: relative;
+    width: 60%;
+    margin: auto;
+    background-color: #bbcef3;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 2px solid #d4af37;
+  }
+  
+  .coração {
+    position: absolute;
+    top: 13.9%;
+    left: 77%;
+    max-width: 160px;
+    z-index: 1;
+  }
+  
+  .rosinha {
+    position: absolute;
+    top: 97%;
+    left: 92%;
+    max-width: 157px;
+    z-index: 1;
+  }
+  
+  .azul {
+    position: absolute;
+    top: 12%;
+    left: 18%;
+    max-width: 140px;
+    z-index: 1;
+  }
+  
+  #eu, #pizza {
+    max-width: 90%; 
+    margin: 20px auto;
+    display: block;
+    border-radius: 5%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .button,
+  .desativado {
+    font-family: Georgia, 'Times New Roman', serif;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+  }
+  
+  .button:hover {
+    background-color: palevioletred;
+  }
+  
+  .desativado {
+    background-color: pink;
+    display: inline-block;
+    font-size: 17px;
+    margin: 6px 4px;
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  
+  h4 {
+    margin-left: 70%;
+  }
